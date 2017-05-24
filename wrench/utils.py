@@ -17,6 +17,7 @@ if sys.version_info > (3,):
 # =============================================================================
 
 class ExtendedEnum(Enum):
+#eenum
     """Extends ``Enum`` (either native or enum34.enum depending on python
     version) and adds some features.
     """
@@ -68,12 +69,14 @@ class ExtendedEnum(Enum):
 # =============================================================================
 
 class TimeOnlyError(Exception):
+#when
     """Exception indicating that a date operation was attempted on a
     :class:`When` object that only wraps a python ``time`` instance."""
     pass
 
 
 class When(object):
+#when
     # https://docs.python.org/2/library/datetime.html#strftime-strptime-behavior
     """Date/time conversion utility.  A When object wraps either a python
     ``datetime`` or ``time`` instance, providing a common mechanism for
@@ -286,6 +289,7 @@ class When(object):
 # =============================================================================
 
 def dynamic_load(name):
+#hammer
     """Equivalent of "from X import Y" statement using dot notation to specify
     what to import and return.  For example, foo.bar.thing returns the item
     "thing" in the module "foo.bar" """
@@ -298,6 +302,7 @@ def dynamic_load(name):
 
 
 def camelcase_to_underscore(text):
+#hammer
     prev_cap = text[0].isupper()
     result = [text[0].lower(), ]
     for letter in text[1:]:
@@ -315,6 +320,7 @@ def camelcase_to_underscore(text):
 
 
 def rows_to_columns(matrix):
+#hammer
     """Takes a two dimensional array and returns an new one where rows in the
     first become columns in the second."""
     num_rows = len(matrix)
@@ -362,6 +368,7 @@ class AnchorParser(HTMLParser):
 
 
 def parse_link(html):
+#hammer
     """Parses an HTML anchor tag, returning the href and content text.  Any
     content before or after the anchor tag pair is ignored.
 
@@ -383,6 +390,7 @@ def parse_link(html):
 
 
 def pprint(data):
+# waelstow
     """Alternative to `pprint.PrettyPrinter()` that uses `json.dumps()` for
     sorting and displaying data.  
 

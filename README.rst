@@ -1,20 +1,24 @@
 wrench
 ******
 
+.. warning::
+
+    PROJECT DEPRECATED!!!!
+
+    This project has been split up into pieces to better handle the varying
+    change rates of the component parts.
+
+    No more changes will be done to this library.  Instead, see:
+
+    * `screwdriver <https://github.com/cltrudeau/screwdriver>`_
+    * `logthing <https://github.com/cltrudeau/logthing>`_
+    * `pywhen <https://github.com/cltrudeau/pywhen>`_
+    * `eenum <https://github.com/cltrudeau/eenum>`_
+    * `context_temp <https://github.com/cltrudeau/context_temp>`_
+    * `waelstow <https://github.com/cltrudeau/waelstow>`_
+
 Another tool for your python toolset.  General odds and ends that kept coming
 up in projects.
-
-Installation
-============
-
-.. code-block:: bash
-
-    $ pip install wrench
-
-Supports
-========
-
-Python wrench has been tested with Python 2.7, 3.4, and 3.5
 
 Docs & Source
 =============

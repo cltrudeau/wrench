@@ -8,6 +8,7 @@ from six import StringIO
 
 @contextlib.contextmanager
 def replaced_directory(dirname):
+# waelstow
     """This ``Context Manager`` is used to move the contents of a directory
     elsewhere temporarily and put them back upon exit.  This allows testing
     code to use the same file directories as normal code without fear of
@@ -60,6 +61,7 @@ def replaced_directory(dirname):
 
 @contextlib.contextmanager
 def temp_directory():
+# context_temp
     """This ``Context Manager`` creates a temporary directory and yields its
     path.  Upon exit the directory is removed.
 
@@ -83,6 +85,7 @@ def temp_directory():
 
 @contextlib.contextmanager
 def temp_file():
+# context_temp
     """This ``Context Manager`` creates a temporary file which is readable and
     writable by the current user and yields its path.  Once the ``Context``
     exits, the file is removed.
@@ -106,6 +109,7 @@ def temp_file():
 
 @contextlib.contextmanager
 def capture_stdout():
+# waelstow
     """This ``Context Manager`` redirects STDOUT to a ``StringIO`` objects
     which is returned from the ``Context``.  On exit STDOUT is restored.
 
@@ -129,6 +133,7 @@ def capture_stdout():
 
 @contextlib.contextmanager
 def capture_stderr():
+# waelstow
     """This ``Context Manager`` redirects STDERR to a ``StringIO`` objects
     which is returned from the ``Context``.  On exit STDERR is restored.
 

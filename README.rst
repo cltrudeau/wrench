@@ -17,9 +17,6 @@ wrench
     * `context_temp <https://github.com/cltrudeau/context_temp>`_
     * `waelstow <https://github.com/cltrudeau/waelstow>`_
 
-Another tool for your python toolset.  General odds and ends that kept coming
-up in projects.
-
 Docs & Source
 =============
 

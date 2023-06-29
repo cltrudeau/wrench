@@ -16,10 +16,3 @@ wrench
     * `eenum <https://github.com/cltrudeau/eenum>`_
     * `context_temp <https://github.com/cltrudeau/context_temp>`_
     * `waelstow <https://github.com/cltrudeau/waelstow>`_
-
-Docs & Source
-=============
-
-Docs: http://python-wrench.readthedocs.io/en/latest/
-
-Source: https://github.com/cltrudeau/wrench
